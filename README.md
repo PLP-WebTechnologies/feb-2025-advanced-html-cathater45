@@ -79,6 +79,14 @@ Apply multimedia elements such as audio and video.
         <h1>Welcome to My Sample HTML5 Page</h1>
     </header>
 
+Which element is used to group related fields in a form?
+a) <fieldset>
+
+b) <label>
+
+c) <legend>
+
+d) <div>
     <main>
         <h2>About This Page</h2>
         <p>This is a basic example of a well-structured HTML5 document. It uses semantic elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> for better organization and readability.</p>
@@ -203,4 +211,12 @@ Apply multimedia elements such as audio and video.
       <a href="#introduction" style="color: #ecf0f1; margin: 0 10px;">Introduction</a>
       <a href="#content" style="color: #ecf0f1; margin: 0 10px;">Content</a>
       <a href="#conclusion" style="c
+Which element is used to group related fields in a form?
+a) <fieldset>
+
+b) <label>
+
+c) <legend>
+
+d) <div>
 
