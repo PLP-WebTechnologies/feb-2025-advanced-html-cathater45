@@ -23,32 +23,8 @@ Apply multimedia elements such as audio and video.
  
 # Tasks
 - Create a well-structured HTML5 document.
-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML5 Document</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f5f5f5;
-        }
-        header, footer {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        main {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-        }
-    </style>
-</head>
-<body>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -79,14 +55,17 @@ Apply multimedia elements such as audio and video.
         <h1>Welcome to My Sample HTML5 Page</h1>
     </header>
 
-Which element is used to group related fields in a form?
-a) <fieldset>
+    <main>
+        <h2>About This Page</h2>
+        <p>This is a basic HTML5 document with semantic elements such as header, main, and footer. It also includes internal CSS for styling.</p>
+    </main>
 
-b) <label>
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+</body>
+</html>
 
-c) <legend>
-
-d) <div>
     <main>
         <h2>About This Page</h2>
         <p>This is a basic example of a well-structured HTML5 document. It uses semantic elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> for better organization and readability.</p>
@@ -111,7 +90,6 @@ d) <div>
     <footer>
         <p>&copy; 2025 My Website. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
 
@@ -211,12 +189,71 @@ d) <div>
       <a href="#introduction" style="color: #ecf0f1; margin: 0 10px;">Introduction</a>
       <a href="#content" style="color: #ecf0f1; margin: 0 10px;">Content</a>
       <a href="#conclusion" style="c
-Which element is used to group related fields in a form?
-a) <fieldset>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semantic HTML5 Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header, footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
 
-b) <label>
+  <header>
+    <h1>My Semantic HTML5 Page</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-c) <legend>
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This page demonstrates the use of semantic HTML5 elements to structure a clean and accessible document.</p>
+    </section>
 
-d) <div>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you have any questions, feel free to reach out.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+
+</body>
+</html>
+
 
