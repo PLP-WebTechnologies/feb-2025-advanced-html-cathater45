@@ -49,6 +49,47 @@ Apply multimedia elements such as audio and video.
     </style>
 </head>
 <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML5 Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Sample HTML5 Page</h1>
+    </header>
+
+    <main>
+        <h2>About This Page</h2>
+        <p>This is a basic example of a well-structured HTML5 document. It uses semantic elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> for better organization and readability.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sample Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
 
     <header>
         <h1>Welcome to My Website</h1>
@@ -125,3 +166,41 @@ Apply multimedia elements such as audio and video.
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semantic HTML5 Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header, footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Semantic HTML5 Example</h1>
+    <nav>
+      <a href="#introduction" style="color: #ecf0f1; margin: 0 10px;">Introduction</a>
+      <a href="#content" style="color: #ecf0f1; margin: 0 10px;">Content</a>
+      <a href="#conclusion" style="c
+
