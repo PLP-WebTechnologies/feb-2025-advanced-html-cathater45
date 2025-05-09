@@ -125,6 +125,68 @@ Apply multimedia elements such as audio and video.
   </style>
 </head>
 <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semantic HTML5 Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header, footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Semantic HTML5 Page</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This page demonstrates the use of semantic HTML5 elements to structure a clean and accessible document.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you have any questions, feel free to reach out.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy
 
   <header>
     <h1>My Semantic HTML5 Page</h1>
@@ -152,6 +214,7 @@ Apply multimedia elements such as audio and video.
 
 </body>
 </html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -254,6 +317,66 @@ Apply multimedia elements such as audio and video.
   </footer>
 
 </body>
-</html>
+</ht
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Semantic HTML5 Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    header, footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>My Semantic HTML5 Page</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This page demonstrates the use of semantic HTML5 elements to structure a clean and accessible document.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you have any questions, feel free to reach out.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy
